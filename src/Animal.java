@@ -14,6 +14,7 @@ public class Animal {
     }
 
     public static void main(String[] args) {
+        // Up-casting.
         Dog dog = new Dog();
         Animal animal = (Animal) dog;
         animal.callme();
@@ -27,10 +28,14 @@ public class Animal {
         animal2.callanimal();
         /*
         Another type of up-casting;
-        The up-casting makes sub-type able to use methods written for parent class.
+        The up-casting makes sub-type able to use methods written for super types.
 
         So: the reference is important, because it directly links an instance to the
         reference class's methods.
          */
+
+
+
+
     }
 }
